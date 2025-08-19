@@ -1,0 +1,71 @@
+name: protect_our_forest
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+  english_words: ^4.0.0
+  provider: ^6.1.5
+  icons_launcher: ^3.0.1
+  google_fonts: ^6.2.1
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  lucide_icons_flutter: ^3.0.6
+  camera: ^0.11.2
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  permission_handler: ^12.0.1
+  geolocator: ^14.0.2
+  turf: ^0.0.10
+  turf_equality: ^0.1.0
+  http: ^1.5.0-beta.2
+  flutter_secure_storage: ^9.2.4
+  polybool: ^0.2.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/home/logo.png
+    - assets/image/home/logo_square.png
+    - assets/image/home/background.png
+    - assets/image/home/account_image.png
+    - assets/image/location/location_icon.png
+    - assets/image/location/lucide_land-plot.png
+    - assets/image/location/land_field.png
+    - assets/image/location/circle-check.png
+    - assets/image/notification_image/bell-dot.png
+    - assets/image/notification_image/lucide_bell.png
+    - assets/image/image_location/forest_background.png
+    - assets/image/image_location/forest_result.png
+
+    
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo.png
+
+  android_12:
+    image: assets/logo.png
+    color: "#1b3b3a"
+
+icons_launcher:
+  image_path: "assets/logo.png"
+  platforms:
+    android:
+      enable: true
+      adaptive_background_color: "#1b3b3a"
+      adaptive_foreground_image: "assets/logo.png"
+    ios:
+      enable: true
